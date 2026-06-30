@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Trip Tunisia</title>
-    <!-- تضمين مكتبة Pi Network -->
+    <!-- تضمين مكتبة Pi Network SDK -->
     <script src="https://sdk.minepi.com/pi-sdk.js"></script>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f9f9f9; }
@@ -23,7 +23,7 @@
     </div>
 
     <script>
-        // تهيئة مكتبة الـ SDK
+        // تهيئة مكتبة الـ SDK في وضع بيئة الاختبار (Sandbox)
         Pi.init({ version: "2.0", sandbox: true });
 
         async function makeTestPayment() {
